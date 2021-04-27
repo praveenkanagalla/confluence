@@ -8,7 +8,7 @@ function leftOpenNav(x) {
 function leftCloseNav() {
     document.getElementById("mySidebar").style.width = "0";
     document.getElementById("mySidebar").classList.remove("mystyle");
-    document.getElementById("mainContent").style.marginLeft = "25%";
+    document.getElementById("mainContent").style.marginLeft = "0";
     document.getElementById("mainContent").classList.add("maincontent");
     document.getElementById("openLeftBtn").style.display = "block";
     
